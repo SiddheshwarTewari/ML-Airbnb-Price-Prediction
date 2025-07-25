@@ -19,14 +19,14 @@ What I did:
 
 ## Project Structure
 
-ML-Airbnb-Price-Prediction/
-|-- data/
-| --- listings.csv <- Raw dataset from Inside Airbnb
-|-- notebooks/
-| --- Airbnb_Price_Prediction.ipynb <- Jupyter notebook with full project
-|-- README.md <- You are reading it!
-|-- requirements.txt <- Python dependencies
-|-- .gitignore <- Ignored files like .DS_Store, .ipynb_checkpoints
+ML-Airbnb-Price-Prediction/  
+|-- data/  
+| --- listings.csv <- Raw dataset from Inside Airbnb  
+|-- notebooks/  
+| --- Airbnb_Price_Prediction.ipynb <- Jupyter notebook with full project  
+|-- README.md <- You are reading it!  
+|-- requirements.txt <- Python dependencies  
+|-- .gitignore   
 
 ---
 
@@ -60,19 +60,19 @@ The dataset includes 70+ columns, but I selected a few key ones for this project
 
 ### 1. Clone the Repository
 
-git clone https://github.com/SiddheshwarTewari/ML-Airbnb-Price-Prediction.git
-cd ML-Airbnb-Price-Prediction
+git clone https://github.com/SiddheshwarTewari/ML-Airbnb-Price-Prediction.git  
+cd ML-Airbnb-Price-Prediction  
 
 ### 2. Create a Virtual Environment (Optional but recommended)
 
-python -m venv venv
-source venv/bin/activate or .\venv\Scripts\activate on Windows
+python -m venv venv  
+source venv/bin/activate or .\venv\Scripts\activate on Windows  
 
 ### 3. Install Dependencies
 
 pip install -r requirements.txt
 
-OR 
+OR   
 install manually: pip install pandas numpy matplotlib seaborn scikit-learn jupyter
 
 ### 4. Run Jupyter Notebook
@@ -87,8 +87,8 @@ Linear Regression (from scikit-learn)
 
 ### Performance:
 
-MSE (Mean Squared Error): 4,013
-R² Score: 0.67
+MSE (Mean Squared Error): 4,013  
+R² Score: 0.67  
 
 This is a baseline model to demonstrate regression concepts. You can improve it by:
 1. Using more advanced models 
